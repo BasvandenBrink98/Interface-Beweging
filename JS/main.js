@@ -87,3 +87,5 @@ function setFade3() {
   document.getElementById("transition").style.opacity = "0";
   document.getElementById("transition").classList.add("fade-out");
 }
+
+document.getElementById("music").volume = 0.3;
