@@ -1,0 +1,83 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+audio{
+  z-index: 20;
+}
+
+#introGif {
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+#animation video {
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+
+#buttons {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 36.5em;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#buttons a {
+  padding: 0.3em 0.3em 0.3em 0.3em;
+  width: 5em;
+  margin: 0.5em 0.5em 0.5em 1em;
+}
+
+#buttons a img {
+  width: 5em;
+}
+
+.visible {
+  opacity: 100;
+}
+
+.transition {
+  opacity: 100;
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+.fade-in {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 1s;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
