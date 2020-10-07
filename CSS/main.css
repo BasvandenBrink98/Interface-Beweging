@@ -23,10 +23,8 @@ audio{
 
 
 #buttons {
-  position: absolute;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 36.5em;
+  display: block;
+  margin: auto;
   cursor: pointer;
   z-index: 10;
 }
